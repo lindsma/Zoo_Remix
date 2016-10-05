@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Zoo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/reset.css">
+</head>
+
+<body>
+
+    <!-- Content goes here -->
+
+    <nav>
+        <h4>Durham Zoo Animal Inventory</h4>
+    </nav>
+
+    <main class="container">
+
+        <div id="animal-container">
+        </div>
+
+        <footer class="add-animal">
+            <h3 class="add-animal">Add an Animal</h3>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="species">Species</label>
+                <input id="species" type="text" class="species">
+                <label for="date-of-birth">DOB</label>
+                <input id="date-of-birth" type="text" placeholder="YYYY-MM-DD">
+                <input id="submit-button" type="submit" value="Add Animal">
+            </form>
+        </footer>
+
+    </main>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
